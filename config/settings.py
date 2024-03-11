@@ -28,6 +28,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # libraries
+    "rest_framework",
     # local apps
     "warehouse",
 ]
@@ -73,13 +75,13 @@ WSGI_APPLICATION = "config.wsgi.application"
 #     }
 # }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'storeroom_db',
-        'USER': 'postgres',
-        'PASSWORD': 'aymurat2136',
-        'HOST': 'localhost',
-        'PORT': '5432',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "storeroom_db",
+        "USER": "postgres",
+        "PASSWORD": "aymurat2136",
+        "HOST": "localhost",
+        "PORT": "5432",
     }
 }
 
